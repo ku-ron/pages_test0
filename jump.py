@@ -1,6 +1,7 @@
 import pyxel
 import os
-basedir = os.path.dirname(__file__) + "/"
+#basedir = os.path.dirname(__file__) + "/"
+basedir = ""
 
 class App:
     def __init__(self):
