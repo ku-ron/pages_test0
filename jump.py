@@ -1,7 +1,7 @@
 import pyxel
 import os
 #basedir = os.path.dirname(__file__) + "/"
-basedir = "pages_test0/"
+basedir = ""
 
 class App:
     def __init__(self):
@@ -11,7 +11,7 @@ class App:
         global obj_box
         obj_box = []
 
-        pyxel.load("mr.pyxres")
+        pyxel.load(basedir+"mr.pyxres")
 
         self.c_x = 0
         self.c_y = 0
