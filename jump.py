@@ -11,7 +11,7 @@ class App:
         global obj_box
         obj_box = []
 
-        pyxel.load(basedir+"mr.pyxres")
+        pyxel.load("mr.pyxres")
 
         self.c_x = 0
         self.c_y = 0
